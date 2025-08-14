@@ -66,7 +66,7 @@ print('')
 ###
 # set up the input images
 ###
-infolder = '/Volumes/LaCie/Durham_data/HSI/Symeon/'
+infolder = '/home/fzhcis/mylab/gdrive/projects_with_Dave/for_Fei/Data/Ducky_and_Fragment/'
 #infolder = '/Users/dwmpaci/Desktop/3_PROJECTS/0_Durham/HSI_Data/061223-PGL-bookbinding/'
 #infolder = infolder + 'Ducky_and_Fragment/'
 

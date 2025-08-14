@@ -42,8 +42,6 @@ Repo:
 ## Requirements and Assumptions
 
 - ENVI headers must contain valid `wavelength` metadata for both cubes.
-- A GUI backend for Matplotlib is required to pick control points.
-- For large cubes, ensure sufficient RAM.
 
 ## Citation
 
@@ -62,3 +60,10 @@ BibTeX:
 }
 
 Also consider citing the libraries used: Spectral Python (spectral), OpenCV, NumPy.
+
+# To-do list
+- [x] Improve error handling and user feedback in the GUI.
+- [ ] Modularize code in build_cube.py
+- [ ] Implement logging for better traceability.
+- [ ] Save the homography matrix to a file for future use.
+- [ ] Automate the selection of control points using feature matching.
